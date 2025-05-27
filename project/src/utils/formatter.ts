@@ -19,7 +19,7 @@ const formatDate = (date: Date): string => {
 };
 
 const formatTime = (date: Date): string => {
-  return date.toLocaleTimeString('en-US', {
+  return date.toLocaleTimeString('es-ES', {
     hour: '2-digit',
     minute: '2-digit'
   });
